@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="Azure-AAD-B2C-Java:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/Azure_AAD_B2C_Java_war</output-path>
+    <root id="archive" name="ROOT.war">
+      <element id="artifact" artifact-name="Azure-AAD-B2C-Java:war exploded" />
+    </root>
+  </artifact>
+</component>
