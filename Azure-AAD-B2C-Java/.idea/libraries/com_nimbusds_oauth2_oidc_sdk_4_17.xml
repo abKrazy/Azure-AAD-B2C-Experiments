@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="com.nimbusds:oauth2-oidc-sdk:4.17" type="repository">
+    <properties maven-id="com.nimbusds:oauth2-oidc-sdk:4.17" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/oauth2-oidc-sdk-4.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mail-1.4.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/activation-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jcip-annotations-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang3-3.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/json-smart-1.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lang-tag-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/nimbus-jose-jwt-3.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bcprov-jdk15on-1.52.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-io-2.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

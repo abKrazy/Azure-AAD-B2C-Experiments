@@ -3,6 +3,12 @@
     <output-path>$PROJECT_DIR$/out/artifacts/Azure_AAD_B2C_Java_war</output-path>
     <root id="archive" name="ROOT.war">
       <element id="artifact" artifact-name="Azure-AAD-B2C-Java:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="library" level="project" name="com.nimbusds:oauth2-oidc-sdk:4.17" />
+        </element>
+      </element>
     </root>
   </artifact>
 </component>
