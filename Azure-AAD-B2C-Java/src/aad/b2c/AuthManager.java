@@ -9,12 +9,11 @@ import java.util.Enumeration;
 
 public class AuthManager {
 
-    private static final String signinPolicy  = "B2C_1_sign-in";
-    private static final String signupPolicy  = "B2C_1_sign-up";
-    private static final String editprofilePolicy  = "B2C_1_edit-profile";
+    private static final String signinPolicy  = "B2C_1_signinjava2";
+    private static final String signupPolicy  = "B2C_1_signupjava2";
+    private static final String editprofilePolicy  = "B2C_1_editjava2";
 
     private final String aadUri;
-
 
     public AuthManager(String tenant, String clientId, String redirectUri){
 
@@ -70,11 +69,11 @@ public class AuthManager {
     {
         return this.aadUri + signinPolicy;
     }
-    public String signupUri()
+    public String getSignUpUri()
     {
         return this.aadUri + signupPolicy;
     }
-    public String editProfileUri()
+    public String getEditProfileUri()
     {
         return this.aadUri + editprofilePolicy;
     }
